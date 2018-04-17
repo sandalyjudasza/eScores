@@ -1,7 +1,11 @@
 <?xml version="1.0" encoding="UTF-8" ?>
     <widget xmlns   = "http://www.w3.org/ns/widgets"
         xmlns:gap   = "http://phonegap.com/ns/1.0"
+<<<<<<< HEAD
 		id          = "myfirstapp"
+=======
+		id          = "eScores"
+>>>>>>> 2672a08bd18762ce7b80ce64908de8d5fa115112
         version     = "1.0.0" >
 
     <name>First app</name>
@@ -31,4 +35,8 @@
 	<plugin spec="https://github.com/cordova-sms/cordova-sms-plugin" source="git" />
 	
 	
+<<<<<<< HEAD
 </widget>
+=======
+</widget>
+>>>>>>> 2672a08bd18762ce7b80ce64908de8d5fa115112
