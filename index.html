@@ -12,7 +12,6 @@ width="2" height="0">
 </embed> -->
 
 
-
   <div id="login_div" class="main-div">
     <h3>eSports Login</h3>
     <input type="email" placeholder="Email..." id="email_field" />
@@ -46,6 +45,30 @@ width="2" height="0">
   </script>
   <script src="https://apis.google.com/js/platform.js" async defer>
   </script>
+  
+  <script>
+  window.fbAsyncInit = function() {
+    FB.init({
+      appId      : '2145472378801355',
+      cookie     : true,
+      xfbml      : true,
+      version    : '4.32.0'
+    });
+      
+    FB.AppEvents.logPageView();   
+      
+  };
+
+  (function(d, s, id){
+     var js, fjs = d.getElementsByTagName(s)[0];
+     if (d.getElementById(id)) {return;}
+     js = d.createElement(s); js.id = id;
+     js.src = "https://connect.facebook.net/en_US/sdk.js";
+     fjs.parentNode.insertBefore(js, fjs);
+   }(document, 'script', 'facebook-jssdk'));
+	</script>
+  
+  
   
   <script src="js/login.js"></script>
   <script src="js/google.js"></script>
