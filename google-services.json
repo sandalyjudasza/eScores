@@ -1,0 +1,42 @@
+{
+  "project_info": {
+    "project_number": "1087845212522",
+    "firebase_url": "https://esports-login.firebaseio.com",
+    "project_id": "esports-login",
+    "storage_bucket": "esports-login.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:1087845212522:android:184175a836a02c1c",
+        "android_client_info": {
+          "package_name": "io.github.s188691"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "1087845212522-jvjhjgbfkvkpipoq0cfr3shuq0bc2u2a.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCVIVHeJBbIoYTjhacxB4LEIRLO96wNS4c"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 1,
+          "other_platform_oauth_client": []
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
