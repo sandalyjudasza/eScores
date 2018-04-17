@@ -4,14 +4,32 @@
 		id          = "myfirstapp"
         version     = "1.0.0" >
 
-    <name>App with jQM</name>
-    <description>My first mobile app with jQuery Mobile user interface</description>
-    <author href="http://mypersonalwebsite.com" email="johnbrown@gmail.com">
-		John Brown
-	</author>
+    <name>eSports</name>
+    <description>esport app</description>
+    <author href="https://s188691.github.io/eScores/index.html" email="x">Wiki</author>
 	<platform name="android" />
+	<preference name="AndroidLaunchMode" value="singleTask" />
+	
+	<universal-links>
+    <host name="https://ry2x6.app.goo.gl" scheme="https" />
+    <host name="esports-login.firebaseapp.com" scheme="https">
+    <path url="/__/auth/callback"/>
+    </host>
+	</universal-links>
 	
 	<plugin name="cordova-plugin-device" spec="~1.1.4" />
 	<plugin name="cordova-plugin-dialogs" spec="~1.3.1" />
+	# Plugin to pass application build info (app name, ID, etc) to the OAuth widget.
+	cordova plugin add cordova-plugin-buildinfo --save
+	# Plugin to handle Universal Links (Android app link redirects)
+	cordova plugin add cordova-universal-links-plugin --save
+	# Plugin to handle opening secure browser views on iOS/Android mobile devices
+	cordova plugin add cordova-plugin-browsertab --save
+	# Plugin to handle opening a browser view in older versions of iOS and Android
+	cordova plugin add cordova-plugin-inappbrowser --save
+	# Plugin to handle deep linking through Custom Scheme for iOS
+	# Substitute *com.firebase.cordova* with the iOS bundle ID of your app.
+	cordova plugin add cordova-plugin-customurlscheme --variable \
+    URL_SCHEME=com.firebase.cordova --save
 
 </widget>
