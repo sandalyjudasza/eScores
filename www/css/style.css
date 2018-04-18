@@ -1,3 +1,7 @@
+
+
+
+
 body {
   background: #fff;
   padding: 0px;
@@ -76,3 +80,10 @@ input, button {
   border: 1px solid #5d8ffc;
   cursor: pointer;
 }
+
+div {
+  margin: 0;
+  padding: 0;
+  text-align: center; /* !!! */
+}
+
